@@ -81,7 +81,7 @@
           <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="320" y="160"/>
+      <pos x="320" y="180"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -145,10 +145,6 @@ D as the least-significant bit.</string>
       <elementName>Rectangle</elementName>
       <elementAttributes>
         <entry>
-          <string>RectHeight</string>
-          <int>4</int>
-        </entry>
-        <entry>
           <string>Label</string>
           <string>Converts between single bits &amp; a 3-bit bus</string>
         </entry>
@@ -176,8 +172,132 @@ D as the least-significant bit.</string>
   </visualElements>
   <wires>
     <wire>
+      <p1 x="200" y="80"/>
+      <p2 x="320" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="240"/>
+      <p2 x="320" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="240"/>
+      <p2 x="480" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="320"/>
+      <p2 x="320" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="160" y="100"/>
+      <p2 x="300" y="100"/>
+    </wire>
+    <wire>
+      <p1 x="40" y="180"/>
+      <p2 x="120" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="180"/>
+      <p2 x="320" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="260"/>
+      <p2 x="320" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="360" y="260"/>
+      <p2 x="380" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="40" y="280"/>
+      <p2 x="60" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="100" y="280"/>
+      <p2 x="240" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="280"/>
+      <p2 x="320" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="200"/>
+      <p2 x="320" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="60"/>
+      <p2 x="340" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="220"/>
+      <p2 x="320" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="300"/>
+      <p2 x="320" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="160" y="-20"/>
+      <p2 x="160" y="100"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="80"/>
+      <p2 x="320" y="120"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="-20"/>
+      <p2 x="240" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="200"/>
+      <p2 x="240" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="240"/>
+      <p2 x="240" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="280"/>
+      <p2 x="240" y="320"/>
+    </wire>
+    <wire>
       <p1 x="340" y="140"/>
-      <p2 x="340" y="160"/>
+      <p2 x="340" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="340" y="60"/>
+      <p2 x="340" y="120"/>
+    </wire>
+    <wire>
+      <p1 x="200" y="-20"/>
+      <p2 x="200" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="-20"/>
+      <p2 x="120" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="260"/>
+      <p2 x="120" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="220"/>
+      <p2 x="120" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="180"/>
+      <p2 x="120" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="40" y="180"/>
+      <p2 x="40" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="300" y="100"/>
+      <p2 x="300" y="120"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="240"/>
+      <p2 x="380" y="260"/>
     </wire>
   </wires>
   <measurementOrdering/>
