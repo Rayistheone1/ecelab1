@@ -4,12 +4,30 @@
 
 ### Truth Table
 
+| Month | A | B | C | D | Y |
+|-------|---|---|---|---|---|
+|       | 0 | 0 | 0 | 0 | X |
+| JAN   | 0 | 0 | 0 | 1 | 1 |
+| FEB   | 0 | 0 | 1 | 0 | 0 |
+| MAR   | 0 | 0 | 1 | 1 | 1 |
+| APR   | 0 | 1 | 0 | 0 | 0 |
+| MAY   | 0 | 1 | 0 | 1 | 1 |
+| JUN   | 0 | 1 | 1 | 0 | 0 |
+| JUL   | 0 | 1 | 1 | 1 | 1 |
+| AUG   | 1 | 0 | 0 | 0 | 1 |
+| SEP   | 1 | 0 | 0 | 1 | 0 |
+| OCT   | 1 | 0 | 1 | 0 | 1 |
+| NOV   | 1 | 0 | 1 | 1 | 0 |
+| DEC   | 1 | 1 | 0 | 0 | 1 |
+|       | 1 | 1 | 0 | 1 | X |
+|       | 1 | 1 | 1 | 0 | X |
+|       | 1 | 1 | 1 | 1 | X |
 Insert your truth table here
 
 ### Boolean Equation
 
 $$
-Y = ?
+Y = A'D+AD'
 $$
 
 ### Digital Simulations
